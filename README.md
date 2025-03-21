@@ -41,7 +41,8 @@ DEVELOPED BY :NARRA RAMYA
 REG NO :212223040128
 
 ```
-##HTML
+**##HTML**
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -67,7 +68,8 @@ REG NO :212223040128
 </body>
 </html>
 
-##CSS
+**##CSS**
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -204,7 +206,8 @@ h1 {
 #clear-completed-btn:hover {
     background-color:lightcoral;
 }
-##JS
+**##JS**
+
 // Get elements
 const todoInput = document.getElementById('todo-input');
 const addTodoBtn = document.getElementById('add-todo-btn');
