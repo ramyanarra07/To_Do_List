@@ -42,31 +42,32 @@ REG NO :212223040128
 
 ```
 **##HTML**
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Todo List</title>
+    <title>Todo App</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Todo App</h1>
+    <h1>Todo List</h1>
     <div class="todo-container">
         <input type="text" id="todo-input" placeholder="Add new todo">
         <button id="add-todo-btn">Add</button>
     </div>
-    
     <ul id="todo-list"></ul>
     <div class="clear-completed-container">
         <button id="clear-completed-btn">Clear All</button>
     </div>
-    
-
+    <footer>
+        <p>&copy; 2025 NARRA RAMYA 212223040128 | ALL RIGHTS RESERVED</p>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
+
+
 
 **##CSS**
 
@@ -119,8 +120,8 @@ h1 {
     height: 40px;
     padding: 10px;
     font-size: 18px;
-    background-color: lightcoral;
-    color: #fff;
+    background-color: rgb(202, 183, 202);
+    color: black;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -173,8 +174,8 @@ h1 {
     height: 40px;
     padding: 10px;
     font-size: 18px;
-    background-color:lightcoral;
-    color: #fff;
+    background-color:rgb(202, 183, 202);
+    color: black;
     border: none;
     border-radius: 2px;
     cursor: pointer;
@@ -192,8 +193,8 @@ h1 {
 }
 
 #clear-completed-btn {
-    background-color: lightcoral;
-    color: #fff;
+    background-color: rgb(202, 183, 202);
+    color:black;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -204,8 +205,19 @@ h1 {
 }
 
 #clear-completed-btn:hover {
-    background-color:lightcoral;
+    background-color:rgb(202, 183, 202);
 }
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(202, 183, 202);
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+
 **##JS**
 
 // Get elements
@@ -311,13 +323,14 @@ completedTodosBtn.addEventListener('click', () => {
 clearCompletedBtn.addEventListener('click', clearCompletedTodos);
 
 
+
 ```
 
 
 ## OUTPUT:
-![image](https://github.com/user-attachments/assets/cd548d3c-c7e5-4548-a861-71dd322cc528)
+![image](https://github.com/user-attachments/assets/68522c51-9c9d-4587-a371-19d897accc76)
+![image](https://github.com/user-attachments/assets/809ab2f9-22de-437a-98b7-f9b1beec3bf4)
 
-![image](https://github.com/user-attachments/assets/6b7916e5-4e9b-44f9-aabf-d6da903f6dd8)
 
 
 
